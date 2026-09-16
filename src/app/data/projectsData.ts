@@ -56,6 +56,26 @@ export const projectsData: Project[] = [
 
   //*********************************************************************/
   {
+    id: "GeoVision-app",
+    title: "GeoVision",
+    description: "An AI-powered mineral and rock identification mobile application.",
+    category: "UI/UX Design",
+    tools: ["Figma"],
+    prototypeLink: "https://www.figma.com/proto/UtAcTkUZRAB04y6hOU134e/GeoVision?node-id=134-2&t=sTJwIb5yZyo1eDYi-1",
+    designFileLink: "https://www.figma.com/design/UtAcTkUZRAB04y6hOU134e/GeoVision?node-id=134-2&t=sTJwIb5yZyo1eDYi-1",
+    imageSrc: "/images/GeoVision.png",
+    imageAlt: "GeoVision AI app interface preview",
+    gradient: "from-purple-400 to-pink-400",
+    details: {
+      en: "GeoVision is an AI-powered mobile application designed to identify minerals and rocks using computer vision. It provides users with intelligent scan results, confidence scores, mineral information, and an organized library and history for exploring and managing their discoveries.",
+      ar: "GeoVision هو تطبيق محمول مدعوم بالذكاء الاصطناعي وتقنيات الرؤية الحاسوبية، يهدف إلى التعرف على المعادن والصخور من خلال الصور والفحص الذكي. يوفر التطبيق نتائج تحليلية مع نسبة الثقة، ومعلومات تفصيلية عن المعادن، بالإضافة إلى مكتبة وسجل منظم لاستكشاف الاكتشافات وإدارتها."
+    },
+    gallery: [
+      "/images/UI Screen 1.png",
+      "/images/UI screen 2.png"
+    ],
+  },
+  {
     id: "masgi-app",
     title: "Masgi App",
     description: "A beautifully crafted traditional recipe digital library.",
